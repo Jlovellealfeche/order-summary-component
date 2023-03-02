@@ -13,14 +13,16 @@
     background-color: $primarycolor-Brightblue;
     border-radius: 10px;
     font-weight: 700;
-    padding: 10px 20px;
-   
+    margin: 20px;
+    padding: 15px;
+    width: 90%;
 }
+
 
 .btn-change {
     color: $primarycolor-Brightblue;
     text-decoration: underline;
-   
+    margin-left: 50px;
     
 }
 
@@ -36,4 +38,11 @@
         color: $neutralcolor-Darkblue;
     }
    
+}
+
+.payment-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
