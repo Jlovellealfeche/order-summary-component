@@ -8,9 +8,12 @@
 body {
     font-family: $redhatdisplay;
     background-color: $primarycolor-Paleblue;
+    text-align: center;
 
     p {
         font-size: 16px;
+        line-height: 1.6rem;
+        color: $neutralcolor-Desaturatedblue;
     }
 }
 
@@ -25,9 +28,23 @@ body {
     z-index: -1;
 }
 
+.container {
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px hsl(228, 45%, 44%, 0.15);
+    
+}
+
+h1 {
+    color: $neutralcolor-Darkblue;
+}
+
 
 @media (min-width: 768px){
     .bg-img {
         background: url('/images/pattern-background-desktop.svg') no-repeat center/cover;
+        height: 50vh; //so it takes half of the screen//
     }
 }

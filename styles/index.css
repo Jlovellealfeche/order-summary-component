@@ -8,9 +8,12 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   background-color: hsl(225, 100%, 94%);
+  text-align: center;
 }
 body p {
   font-size: 16px;
+  line-height: 1.6rem;
+  color: hsl(224, 23%, 55%);
 }
 
 .bg-img {
@@ -24,12 +27,55 @@ body p {
   z-index: -1;
 }
 
+.container {
+  background-color: hsl(0, 0%, 100%);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px hsla(228, 45%, 44%, 0.15);
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+}
+
 @media (min-width: 768px) {
   .bg-img {
     background: url("/images/pattern-background-desktop.svg") no-repeat center/cover;
+    height: 50vh;
   }
 }
 .btn {
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2 ease-in-out;
+}
+
+.btn-primary {
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+
+.btn-change {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.btn-primary:hover,
+.btn-change:hover {
+  opacity: 0.8;
+}
+
+.btn-cancelorder {
+  color: hsl(224, 23%, 55%);
+}
+.btn-cancelorder:hover {
+  color: hsl(223, 47%, 23%);
 }/*# sourceMappingURL=index.css.map */

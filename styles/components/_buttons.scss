@@ -1,4 +1,39 @@
 .btn {
     font-family: $redhatdisplay;
     font-size: 16px;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2 ease-in-out;
+}
+
+.btn-primary {
+    color:$neutralcolor-Verypaleblue;
+    background-color: $primarycolor-Brightblue;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 10px 20px;
+   
+}
+
+.btn-change {
+    color: $primarycolor-Brightblue;
+    text-decoration: underline;
+   
+    
+}
+
+.btn-primary:hover,
+.btn-change:hover {
+    opacity: 0.8;
+}
+
+.btn-cancelorder {
+    color: $neutralcolor-Desaturatedblue;
+
+    &:hover{
+        color: $neutralcolor-Darkblue;
+    }
+   
 }
