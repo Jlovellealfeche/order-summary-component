@@ -108,7 +108,8 @@ h1 {
 .btn-change {
   color: hsl(245, 75%, 52%);
   text-decoration: underline;
-  margin-left: 50px;
+  margin-left: 20px;
+  padding-right: 25px;
 }
 
 .btn-primary:hover,
