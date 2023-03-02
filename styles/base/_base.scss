@@ -1,0 +1,33 @@
+
+* {
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $redhatdisplay;
+    background-color: $primarycolor-Paleblue;
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.bg-img {
+    background: url('/images/pattern-background-mobile.svg') no-repeat center/cover;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+@media (min-width: 768px){
+    .bg-img {
+        background: url('/images/pattern-background-desktop.svg') no-repeat center/cover;
+    }
+}

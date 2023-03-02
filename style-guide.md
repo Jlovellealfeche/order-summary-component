@@ -21,6 +21,9 @@ The designs were created to the following widths:
 - Dark blue: hsl(223, 47%, 23%)
 
 ## Typography
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+$redhatdisplay: "Red Hat Display", sans-serif;
 
 ### Body Copy
 
